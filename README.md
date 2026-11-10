@@ -73,6 +73,85 @@ Result:
 This section successfully demonstrates how dictionaries can be used to create a simple grade management system that allows users to add, update, delete and search for student records.
 
 
+# Section D: Functions
+
+## Project Title
+Gradebook Management System – Section D
+
+## Objective
+The purpose of this section is to improve the Gradebook Management System by implementing functions and error handling.
+
+## Functions Implemented
+
+### add_student()
+Adds a new student and stores subject grades.
+
+### update_student()
+Updates an existing student's grades.
+
+### search_student()
+Searches for a student record.
+
+### display_students()
+Displays all student records.
+
+### display_summary()
+Displays student averages and summary information.
+
+### calculate_average()
+Calculates the average grade of a student.
+
+## Error Handling
+The program uses try-except blocks to handle invalid user input.
+
+Example:
+
+- Non-numeric grade entries
+- Invalid menu selections
+
+## Program Flow
+
+1. Display menu.
+2. User selects a menu option.
+3. Corresponding function is executed.
+4. Results are displayed.
+
+## Testing Conducted
+
+### Test 1
+Valid numeric grades.
+
+Result:
+- Student added successfully.
+
+### Test 2
+Grade greater than 100.
+
+Result:
+- Error message displayed.
+
+### Test 3
+Grade less than 0.
+
+Result:
+- Error message displayed.
+
+### Test 4
+Alphabetic input.
+
+Result:
+- ValueError handled successfully.
+
+## Concepts Demonstrated
+- Functions
+- Modular Programming
+- Error Handling
+- Input Validation
+- Dictionaries
+
+## Conclusion
+Section D improves code organization and maintainability by dividing the program into reusable functions and incorporating exception handling.
+
 # Section E: Object-Oriented Programming
 
 ## Project Title
